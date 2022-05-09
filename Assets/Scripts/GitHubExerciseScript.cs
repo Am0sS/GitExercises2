@@ -5,7 +5,7 @@ using UnityEngine;
 public class GitHubExerciseScript : MonoBehaviour
 {
     [SerializeField] new string name;
-    new string lastname;
+    string lastname;
 
 
     private void Update()
@@ -14,11 +14,13 @@ public class GitHubExerciseScript : MonoBehaviour
             lastname = "Bezos";
         else if (name == "Johnny")
             lastname = "Depp";
+        else if (name == "Ryan")
+            lastname = "Reynolds";
 
 
 
         if (Input.GetKey(KeyCode.Space))
-        Debug.Log(name + lastname);
+        Debug.Log($"{name} {lastname}");
     }
 
 
