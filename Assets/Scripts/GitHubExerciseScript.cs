@@ -16,6 +16,8 @@ public class GitHubExerciseScript : MonoBehaviour
             lastname = "Depp";
         else if (name == "Ryan")
             lastname = "Reynolds";
+        else if (name == "Monkey")
+            lastname = "Funny";
 
 
 
